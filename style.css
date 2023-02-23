@@ -1,7 +1,31 @@
+body{
+    background: -webkit-linear-gradient(bottom right, blue, rgb(84, 255, 178));
+    /*background: -webkit-radial-gradient(blue, black);*/
+}
+
 table td, table tr, table th{
     background-color: green;
     color: white;
     border: 1px, black;
     border-radius: 50px;
     padding: 10px;
+}
+
+
+a:link{color: yellow;}
+
+a:visited{color: rgb(202, 0, 34);}
+
+a:hover{color: green;}
+
+a:active{color: red;}
+
+li{
+    padding-left: 5px;
+    float: left;
+    border-right: solid, black;
+}
+
+ul{
+    list-style-type: none;
 }
