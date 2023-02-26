@@ -2,11 +2,13 @@ body{
     background: -webkit-linear-gradient(bottom right, blue, rgb(84, 255, 178));
 }
 
+
 .container{
     /* Requirement-2.4 */
     background-color: rgb(0, 255, 174);
     margin-left: auto;
     margin-right: auto;
+    /* Requirement-2.9 */
     width: 500px;
     /* Requirement-2.3 */
     color: rgb(204, 0, 255);
@@ -14,6 +16,10 @@ body{
     border: 1px, black;
     border-radius: 20px;
     padding: 20px;
+    /* Requirement-2.7 */
+    height: 180px;
+    width: 400px;
+    
 }
 
 .container td{
@@ -22,7 +28,7 @@ body{
     text-align: center;
 }
 
-
+/* Requirement-2.E */
 a:link{color: yellow;}
 
 a:visited{color: rgb(202, 0, 34);}
@@ -31,16 +37,13 @@ a:hover{color: green;}
 
 a:active{color: red;}
 
-.list{
-    text-align: center;
-}
 
 ul{
     /* Requirement-2.8 */
     list-style-type: lower-alpha;
-    display: inline-block;
-    text-align: left;
     border-right: solid, black;
+    /* Requirement-2.13 */
+    clear:left;
 }
 
 th {
@@ -49,25 +52,97 @@ th {
     -webkit-text-fill-color: rgb(0, 76, 255);
 }
 
+/* Requirement-2.F */
 h3 + p{
     /* Requirement-2.2 */
     letter-spacing: 2px;
     text-align: center;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    /* Requirement-2.14 */
+    overflow: scroll;
 }
-h3 {
+
+/* Requirement-2.B */
+h1, h3 {
     text-align: center;
     font-family: cursive;
     letter-spacing: 2px;
 }
 
+/* Requirement-2.A */
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    padding: 10px;
+    /* Requirement-2.10 */
+    padding: 2%;
 }
 
 figcaption{
     text-align: center;
+}
+
+/* Requirement-2.C */
+
+
+/* Requirement-2.D */
+#self{
+    /* Requirement-2.12 */
+    display: flex;
+    margin: auto;
+}
+
+#hidden{
+    /* Requirement-2.16 */
+    visibility: hidden;
+}
+
+
+#dog{
+    width: 300px;
+    height: 450px;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    /* Requirement-2.17 */
+    z-index: 1;
+}
+
+#Frisco{
+    /* Requirement-2.15 */
+    position: absolute;
+    top:300px;
+    left:200px;
+    z-index: 2;
+}
+
+#Hawaii{
+    position: absolute;
+    top:500px;
+    left: 400px;
+    z-index: 3;
+}
+
+.pics{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 1200px;
+}
+
+.more{
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.float{
+    /* Requirement-2.11 */
+    float:left;
+}
+
+.list{
+    width: 600px;
+    height: 300px;
+    margin:auto;
 }
