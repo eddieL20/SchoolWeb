@@ -146,3 +146,17 @@ figcaption{
     height: 300px;
     margin:auto;
 }
+
+/* Requirement-2.H */
+summary{
+    width: 250px;
+    background-color: rgba(0, 81, 64, 0.29);
+    border-radius: 8px;
+    color:rgb(90, 254, 254);
+}
+
+/* Requirement-2.G */
+details{
+    width: 400px;   
+    margin:auto;
+}
