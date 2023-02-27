@@ -13,7 +13,7 @@ body{
     /* Requirement-2.3 */
     color: rgb(204, 0, 255);
     /* Requirement-2.5 */
-    border: 1px, black;
+    border: 1px black;
     border-radius: 20px;
     padding: 20px;
     /* Requirement-2.7 */
@@ -41,7 +41,7 @@ a:active{color: red;}
 ul{
     /* Requirement-2.8 */
     list-style-type: lower-alpha;
-    border-right: solid, black;
+    border-right: solid black;
     /* Requirement-2.13 */
     clear:left;
 }
