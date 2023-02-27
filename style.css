@@ -41,7 +41,6 @@ a:active{color: red;}
 ul{
     /* Requirement-2.8 */
     list-style-type: lower-alpha;
-    border-right: solid black;
     /* Requirement-2.13 */
     clear:left;
 }
@@ -142,7 +141,7 @@ figcaption{
 }
 
 .list{
-    width: 600px;
+    width: 400px;
     height: 300px;
     margin:auto;
 }
